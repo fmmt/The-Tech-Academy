@@ -1,0 +1,44 @@
+
+a {
+	text-decoration: none;
+}
+
+.menu {
+	font-weight: bold;
+	list-style: none;
+}
+
+.menu li {
+	display: inline;
+	border: solid 1px;
+	border-radius: 5px;
+	padding: 15px 60px;
+}
+
+.menu li:hover {
+	background-color: rgb(215,191,176);
+	color: rgb(255,0,0);	
+}
+
+.photo_overlay {
+	width: 100%;
+	text-align: center;
+	margin: 15px;
+	
+}
+
+.photo-overlay img {
+	
+}
+
+.photo-overlay h3 {
+	color: rgb(254,239,222);
+	position: absolute;
+}
+
+.photo-overlay p {
+	color: #fff;
+	position: absolute;	
+	
+}
+
