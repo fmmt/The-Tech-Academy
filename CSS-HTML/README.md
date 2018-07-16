@@ -1,1 +1,1 @@
-Coursework for CSS and HTML course
+Coursework from CSS and HTML course
