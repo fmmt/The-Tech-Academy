@@ -1,0 +1,7 @@
+C:\Users\Fumi\source\repos\ConsoleApp12\ConsoleApp12\bin\Debug\ConsoleApp12.exe.config
+C:\Users\Fumi\source\repos\ConsoleApp12\ConsoleApp12\bin\Debug\ConsoleApp12.exe
+C:\Users\Fumi\source\repos\ConsoleApp12\ConsoleApp12\bin\Debug\ConsoleApp12.pdb
+C:\Users\Fumi\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\ConsoleApp12.csprojResolveAssemblyReference.cache
+C:\Users\Fumi\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\ConsoleApp12.csproj.CoreCompileInputs.cache
+C:\Users\Fumi\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\ConsoleApp12.exe
+C:\Users\Fumi\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\ConsoleApp12.pdb
