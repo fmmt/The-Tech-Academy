@@ -1,0 +1,11 @@
+﻿using System;
+
+namespace ConsoleApp22
+{
+    class Program
+    {
+        static void Main()
+        {
+        }
+    }
+}
