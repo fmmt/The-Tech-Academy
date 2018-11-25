@@ -1,0 +1,100 @@
+﻿<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto">
+        <div class="card-header text-center">
+            <h5 class="m-0">
+                Get a Car Insurance Quote Today!
+            </h5>
+        </div> 
+        <div class="card-body">
+            @using (Html.BeginForm("GetQuote", "Home", FormMethod.Post))
+            {
+            <div class="no-gutters">
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label>First Name</label>
+                    </div>
+                    <div class="col">
+                        <input name="FirstName" type="text" class="form-control" required="Required" />
+
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label>Last Name</label>
+                    </div>
+                    <div class="col">
+                        <input name="LastName" type="text" class="form-control" required="Required" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label>Email Address</label>
+                    </div>
+                    <div class="col">
+                        <input name="EmailAddress" type="email" class="form-control" required="Required" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label>Date of Birth</label>
+                    </div>
+                    <div class="col">
+                        <input name="DateOfBirth" type="date" class="form-control" required="Required" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label>Car Year</label>
+                    </div>
+                    <div class="col">
+                        <input name="CarYear" type="number" class="form-control" required="Required" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label>Car Make</label>
+                    </div>
+                    <div class="col">
+                        <input name="CarMake" type="text" class="form-control" required="Required" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label>Car Model</label>
+                    </div>
+                    <div class="col">
+                        <input name="CarModel" type="text" class="form-control" required="Required" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-6">
+                        How many speeding tickets do you have?
+                    </div>
+                    <div class="col">
+                        <input name="SpeedingTickets" type="number" class="form-control" required="Required" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-6">Do you have DUI record?</div>
+                    <div class="col">
+                        <label><input type="radio" name="DUI" value=true checked />Yes</label>
+                        <label><input type="radio" class="ml-4" name="DUI" value=false />No</label>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-6">
+                        Would you like full coverage or liability?
+                    </div>
+                    <div class="col">
+                        <label><input type="radio" name="FullCoverage" value=true checked />Full Coverage</label>
+                        <label><input type="radio" class="ml-4" name="FullCoverage" value=false />Liability</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-block btn-primary">Request Quote</button>
+            </div>
+            }
+
+        </div>
+
+    </div>
+</div>
